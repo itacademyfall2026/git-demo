@@ -1,2 +1,5 @@
+def greet(name):
+  print(f"Hello, {name}!")
+
 name = input("Insert your name: ")
-print(f"Hello, {name}!")
+greet(name)
