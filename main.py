@@ -1,2 +1,5 @@
+def greet(name):
+  print(f"Привет, {name}!")
+
 name = input("Введите ваше имя: ")
-print(f"Привет, {name}!")
+greet(name)
